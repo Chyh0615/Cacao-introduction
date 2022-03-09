@@ -1,0 +1,81 @@
+body {
+    background-color: #f0e8d8;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+ul {
+    position: relative;
+	display: flex;
+	align-items: center;
+	height: 60px;
+    width: 100%;
+	top: 0;
+    left: 0;
+    background: black;
+}
+li {
+    float: left;
+    padding-left: 10px;
+}
+li a {
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+}
+li a:hover{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.cacao-problem {
+    margin: 30px;
+    padding: 20px;
+}
+.climate-img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+span {
+    font-size: 30px;
+}
+.climate-changing {
+    line-height: 1.5;
+}
+.problem-pest {
+    padding-top: 20px;
+}
+.img-1, .img-2, .img-3, .img-4 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+.content-1, .content-2, .content-3, .content-4, .content-5 {
+    line-height: 1.5;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+.content-2, .content-3, .content-4 {
+    height: 230px;
+}
+.content-title {
+    font-size: 30px;
+}
+.img-5 {
+    width: 200px;
+    height: 220px;
+    float: left;
+    padding-right: 10px;
+}
+footer {
+    background-color: black;
+    height: 100px;
+}
+.infro-source {
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    line-height: 1.5;
+}

@@ -1,0 +1,74 @@
+body {
+    background-color: #d6d6d6;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+ul {
+    position: relative;
+	display: flex;
+	align-items: center;
+	height: 60px;
+    width: 100%;
+	top: 0;
+    left: 0;
+    background: black;
+}
+li {
+    float: left;
+    padding-left: 10px;
+}
+li a {
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+}
+li a:hover{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.cacao-history, .cacao-envir {
+    margin-top: 20px;
+    margin: 20px;
+    padding: 25px;
+}
+.his-title, .envir-title {
+    font-size: 40px;
+    padding: 15px 0px;
+}
+.his-content, .envir-content {
+    font-size: 20px;
+    line-height: 1.5;
+    text-justify: inter-word;
+}
+.his-pic {
+    float: right;
+    padding: 5px;
+}
+.cacao-img-1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 0px 5px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.cacao-img-2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.cacao-img-1:hover, .cacao-img-2:hover {
+    opacity: 1;
+}
+footer {
+    background-color: black;
+    height: 100px;
+}
+.infro-source {
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    line-height: 1.5;
+}

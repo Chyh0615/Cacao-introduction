@@ -1,0 +1,64 @@
+body {
+    background-color: #f0e8d8;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+ul {
+    position: relative;
+	display: flex;
+	align-items: center;
+	height: 60px;
+    width: 100%;
+	top: 0;
+    left: 0;
+    background: black;
+}
+li {
+    float: left;
+    padding-left: 10px;
+}
+li a {
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+}
+li a:hover{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.cacao-making {
+    margin: 50px;
+    padding: 30px;
+}
+.cacao-harvest, .cacao-ferment, .cacao-dry, .cacao-roast, .cacao-winnowing, .cacao-redined {
+    padding: 10px;
+    height: 250px;
+}
+.harvest-img, .ferment-img, .dry-img, .roast-img, .winnowing-img, .refined-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50%;
+    float: left;
+}
+span {
+    font-size: 40px;
+}
+.harvest-content, .ferment-content, .dry-content, .roast-content, .winnowing-content, .refined-content {
+    line-height: 1.5;
+    text-align: justify;
+    padding-top: 15px;
+}
+footer {
+    background-color: black;
+    height: 100px;
+}
+.infro-source {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}

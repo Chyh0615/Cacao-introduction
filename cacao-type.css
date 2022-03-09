@@ -1,0 +1,157 @@
+body {
+    background-color: white;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+#backToTop {
+    position: fixed;
+    display: none;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+#backToTop:hover {
+    background-color: #333;
+    color: #fff;
+}
+ul {
+    position: relative;
+	display: flex;
+	align-items: center;
+	height: 60px;
+    width: 100%;
+	top: 0;
+    left: 0;
+    background: black;
+}
+li {
+    float: left;
+    padding-left: 10px;
+}
+li a {
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(140, 140, 140);
+}
+li a:hover{
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+.cacao-type {
+    margin-top: 20px;
+    margin: 40px;
+    padding: 30px;
+}
+.cacao-type-title {
+    font-size: 40px;
+    padding: 15px 0px;
+}
+.type-img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding-right: 10px;
+}
+.cacao-type-content {
+    font-size: 20px;
+    line-height: 1.5;
+    text-justify: inter-word;
+}
+.cacao-type-1, .cacao-type-2, .cacao-type-4 {
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(222,184,135);
+}
+h1 {
+    font-size: 35px;
+}
+.type-1-img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding: 10px 0px;
+}
+.type-1-content {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.type-2-img {
+    width: 300px;
+    height: 280px;
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.type-2-content {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.cacao-type-3 {
+    border-radius: 10px;
+    height: 380px;
+    max-height: 500px;
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(222,184,135);
+}
+.type-3-img {
+    width: 230px;
+    height: 300px;
+    float: right;
+    padding-left: 10px;
+}
+.type-3-content {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.type-4-img {
+    width: 250px;
+    height: 300px;
+    float: left;
+    padding-right: 10px;
+}
+.type-4-content {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.conclusion {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    text-justify: inter-word;
+}
+.con-img {
+    width: 700px;
+    height: 600px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+}
+.infro-source {
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    line-height: 1.5;
+}
