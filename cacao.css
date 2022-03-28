@@ -18,7 +18,7 @@ li {
 }
 li a {
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 30px;
     text-decoration: none;
     color: rgb(140, 140, 140);
 }
@@ -45,16 +45,16 @@ li a:hover{
     padding: 5px;
 }
 .cacao-img-1 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
     padding: 0px 5px;
     border-radius: 50%;
     opacity: 0.7;
 }
 .cacao-img-2 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: right;
     border-radius: 50%;
     opacity: 0.7;
@@ -63,12 +63,38 @@ li a:hover{
     opacity: 1;
 }
 footer {
-    background-color: black;
     height: 100px;
 }
 .infro-source {
-    color: white;
+    margin-top: 50px;
+    color: black;
     padding: 10px;
     padding-left: 50px;
     line-height: 1.5;
+    word-break: break-all;
+}
+@media screen and (max-width: 1000px) {
+    .cacao-img-1, .cacao-img-2 {
+        float: left;
+    }
+}
+@media screen and (max-width: 680px) {
+    ul {
+        height: auto;
+        padding: 10px;
+    }
+    .cacao-img-1, .cacao-img-2 {
+        float: none;
+    }
+    footer {
+        height: auto;
+    }
+    .his-pic {
+        float: none;
+    }
+}
+@media screen and (max-width: 481px) {
+    .his-pic {
+        width: 100%;
+    }
 }

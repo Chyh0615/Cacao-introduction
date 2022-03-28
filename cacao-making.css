@@ -18,7 +18,7 @@ li {
 }
 li a {
     display: inline-block;
-    margin: 0px 20px;
+    margin: 0px 30px;
     text-decoration: none;
     color: rgb(140, 140, 140);
 }
@@ -30,19 +30,19 @@ li a:hover{
     margin: 50px;
     padding: 30px;
 }
-.cacao-harvest, .cacao-ferment, .cacao-dry, .cacao-roast, .cacao-winnowing, .cacao-redined {
+.cacao-harvest, .cacao-ferment, .cacao-dry, .cacao-roast, .cacao-winnowing, .cacao-refined {
     padding: 10px;
     height: 250px;
+    margin-top: 20px;
 }
 .harvest-img, .ferment-img, .dry-img, .roast-img, .winnowing-img, .refined-img {
     width: 200px;
     height: 200px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
     border-radius: 50%;
     float: left;
+    padding-right: 20px;
 }
 span {
     font-size: 40px;
@@ -51,14 +51,59 @@ span {
     line-height: 1.5;
     text-align: justify;
     padding-top: 15px;
+    font-size: 20px;
+}
+div p {
+    padding-top: 10px;
 }
 footer {
-    background-color: black;
     height: 100px;
 }
 .infro-source {
-    color: white;
-    padding: 10px;
-    text-align: center;
     line-height: 1.5;
+    margin-top: 50px;
+    color: black;
+    padding: 10px;
+    padding-left: 100px;
+    line-height: 1.5;
+    word-break: break-all;
+}
+@media screen and (max-width: 1025px) {
+    .cacao-harvest, .cacao-ferment, .cacao-dry, .cacao-roast, .cacao-winnowing, .cacao-refined {
+        height: auto;
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .cacao-harvest {
+        height: 280px;
+    }
+}
+@media screen and (max-width: 680px) {
+    ul {
+        height: auto;
+        padding: 10px;
+    }
+    .harvest-img, .ferment-img, .dry-img, .roast-img, .winnowing-img, .refined-img {
+        float: none;
+        border-radius: 0;
+        width: auto;
+        padding: 0;
+    }
+    .infro-source {
+        padding-left: 90px;
+    }
+}
+@media screen and (max-width: 481px) {
+    .cacao-making {
+        margin: 20px;
+        padding: 0;
+    }
+    .harvest-img, .ferment-img, .dry-img, .roast-img, .winnowing-img, .refined-img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    .infro-source {
+        padding: 20px;
+    }
 }
